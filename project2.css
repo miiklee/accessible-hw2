@@ -1,23 +1,37 @@
 html,body {
   font-family: arial;
   font-size: 1.1em;
-}
-
-.container {
   margin: auto;
   width: 800px;
 }
 
-.heading {
+
+h1 {
   font-weight: bold;
-  font-size: 2em;
-  margin: 1em 0;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  max-width: 1000px;
+  background-image: url(pics/background.jpeg);
 }
 
-.heading2 {
+h2 {
   font-weight: bold;
   font-size: 1.5em;
   margin: .5em 0;
+}
+
+h3 {
+  color: #38879B;
+  font-size: .9em;
+  font-weight: lighter;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-top: 10px;
+  text-decoration: none;
 }
 
 input,textarea {
@@ -26,16 +40,17 @@ input,textarea {
 
 a {
   text-decoration: none;
-  color: gray;
 }
 
-.offscreen {
-  top: -1000px;
-  font-size: 1px;
+ul{
+  padding-left: 25px;
+  list-style-type: none;
 }
+
 
 .navigation a {
   outline: none;
+  margin-top: 30px;
 }
 
 #videoplayer {
@@ -46,10 +61,6 @@ a {
 
 .error {
   color: red;
+  
 }
 
-#accessibilitybanner {
-  width: 857px;
-  height: 207px;
-  background-image: url(pics/accessibilityoverviewbanner.png);
-}
