@@ -53,11 +53,6 @@ ul{
   margin-top: 30px;
 }
 
-#videoplayer {
-  text-align: center;
-  position: relative;
-  top: -100px;
-}
 
 .error {
   color: red;
